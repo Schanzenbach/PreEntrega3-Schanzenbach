@@ -82,6 +82,11 @@ img{
     justify-content: center;
 }
 
+.caja{
+        background-image:url(../assets/img/fondo2.jpg);
+        background-size:cover;
+        height: 600px;
+}
 
 
 
