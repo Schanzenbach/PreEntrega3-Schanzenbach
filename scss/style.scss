@@ -1,0 +1,106 @@
+@import "../reset/reset";
+@import "../colors/colors";
+@import "../components/navbar";
+@import "../components/carousel";
+@import "../components/cards";
+@import "../components/slider";
+@import "../components/buttons";
+@import "../layout/layout";
+
+
+
+@media screen and (max-width: 792px) {
+    .container-fluid{
+        background-color: $azul_oscuro;
+            span{
+                color: $azul_claro;
+            }
+            .somos{
+                height: 30vh;
+                display: flex;
+                align-items: center;
+                p{
+                    font-size: 0.75rem;
+                    width: 100%;
+                    text-align: justify;
+                }
+            }
+    }
+    
+}
+@media screen and (max-width: 590px) {
+    .container-fluid{
+        background-color: $azul_oscuro;
+            span{
+                color: $azul_claro;
+            }
+            .somos{
+                height: 30vh;
+                display: flex;
+                align-items: center;
+                p{
+                    font-size: 0.6rem;
+                    width: 100%;
+                    text-align: justify;
+                }
+            }
+    }
+}
+@media screen and (max-width: 420px) {
+    .container-fluid{
+        background-color: $azul_oscuro;
+            span{
+                color: $azul_claro;
+            }
+            .somos{
+                height: 30vh;
+                display: flex;
+                align-items: center;
+                p{
+                    font-size: 0.5rem;
+                    width: 100%;
+                    text-align: justify;
+                }
+            }
+    }
+}
+
+
+// -----------Notas personales ignorar--------------
+// se pueden poner cosas anidadas asídiv {
+    // div {
+    //     width: 100px;
+    //     height: 100px;
+    //     background-color: red;
+    //     padding: 15px;
+    //     p {
+    //         font-size: 20px;
+    //         color: white;
+    //         font-family: Arial, sans-serif;
+    //     }
+    //  }
+     
+ 
+// Y las pseudo clases 
+
+// li {
+//     color:blue;
+//          &:hover{
+//               color:red;
+//                 }
+//             }
+
+// Si quiero hacer una clase, por ejemplo .card, y luego dentro de la card un title de clase .clard__title, 
+// o .card__text
+// .card{
+//     &__title{
+//         codigo
+//     }
+//     &__text{
+//         codigo
+//     }
+// }
+
+// main{
+//     width: 100%;
+// }

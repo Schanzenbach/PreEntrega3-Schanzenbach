@@ -1,0 +1,366 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 0;
+  margin-bottom: 4rem;
+}
+.navbar-collapse {
+  display: flex;
+  justify-content: end;
+}
+.navbar-toggler {
+  background-color: #e9e9e9;
+}
+.navbar-toggler-icon {
+  background-color: #e9e9e9;
+}
+.navbar-brand {
+  color: #e9e9e9;
+}
+.navbar-brand:hover {
+  color: #e9e9e9;
+  text-decoration: none;
+}
+.navbar-brand:focus {
+  color: #e9e9e9;
+}
+
+.nav-link {
+  color: #e9e9e9;
+}
+.nav-link:hover {
+  color: #0073ff;
+  text-decoration: none;
+}
+.nav-link:focus {
+  color: #0073ff;
+}
+
+nav div ul li {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.dropdown-menu {
+  background-color: #141d28;
+}
+.dropdown-item {
+  color: #e9e9e9;
+}
+
+.carousel-item img {
+  width: 1340px;
+  height: 411px;
+}
+
+.carousel-control-prev-icon {
+  background-color: #141d28;
+}
+.carousel-control-next-icon {
+  background-color: #141d28;
+}
+
+.card {
+  margin: 2vw;
+}
+.card-img-top:hover {
+  transition: 0.6s;
+  transform: scale(1.3, 1.3);
+}
+.card-header {
+  background-color: #141d28;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cajon {
+  width: 66%;
+  margin: auto;
+  max-width: 80vw;
+  background-color: #e9e9e9;
+  padding: 3vw;
+  box-sizing: border-box;
+}
+.cajon ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.cajon .slider {
+  position: relative;
+  padding: 0;
+  top: 0;
+  left: 0;
+  max-width: 80vw;
+  width: 100%;
+  height: 30vw;
+}
+.cajon .slider li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: inherit;
+  height: inherit;
+  transition: opacity 0.5s;
+}
+.cajon .slider li img {
+  max-width: 80vw;
+  width: 100%;
+  height: 30vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cajon .slider li:target {
+  opacity: 1;
+}
+.cajon .slider li:first-child {
+  opacity: 1;
+}
+
+.menu {
+  text-align: center;
+  margin: 10px;
+}
+.menu li {
+  display: inline-block;
+  text-align: center;
+}
+.menu li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: gray;
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+}
+.menu li a:hover {
+  background-color: #141d28;
+}
+.menu li a:active {
+  transition: 25s;
+  background-color: #141d28;
+}
+.menu li a:focus {
+  background-color: #141d28;
+}
+
+@media screen and (max-width: 768px) {
+  .cajon {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100vw;
+    background-color: #e9e9e9;
+    padding: 3vw;
+    box-sizing: border-box;
+  }
+  .cajon ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .cajon .slider {
+    position: relative;
+    padding: 0;
+    top: 0;
+    left: 0;
+    max-width: 100vw;
+    width: 100%;
+    height: 50vw;
+  }
+  .cajon .slider li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity 0.5s;
+  }
+  .cajon .slider li img {
+    max-width: 100vw;
+    width: 100%;
+    height: 50vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .cajon .slider li:target {
+    opacity: 1;
+  }
+  .cajon .slider li:first-child {
+    opacity: 1;
+  }
+}
+main .container .row .col-md-12 .button-send {
+  display: inline-flex;
+  height: 50px;
+  width: 100px;
+  padding: 0;
+  background-color: #141d28;
+  color: #e9e9e9;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "QuickSand", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+main .container .row .col-md-12 .button-send:hover {
+  background-color: #06101f;
+}
+main .container .row .col-md-12 .button-send:active {
+  background-color: #041021;
+}
+main .container .row .col-md-12 .button-send-text {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 10px;
+  height: 100%;
+}
+main .container .row .col-md-12 .button-send-icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 12px;
+  height: 100%;
+}
+main .container .row .col-md-12 .button-reset {
+  display: inline-flex;
+  flex-direction: row;
+  height: 50px;
+  width: 110px;
+  padding: 0;
+  background-color: #e9e9e9;
+  color: #141d28;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "QuickSand", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+main .container .row .col-md-12 .button-reset:hover {
+  background-color: #c6c8ca;
+}
+main .container .row .col-md-12 .button-reset:active {
+  background-color: #979ba1;
+}
+main .container .row .col-md-12 .button-reset-text {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 10px;
+  height: 100%;
+}
+main .container .row .col-md-12 .button-reset-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: end;
+  right: 0;
+  padding: 0 12px;
+  height: 100%;
+}
+
+.container-fluid {
+  background-color: #141d28;
+}
+.container-fluid span {
+  color: #0073ff;
+}
+.container-fluid .somos {
+  height: 35vh;
+  display: flex;
+  align-items: center;
+}
+.container-fluid .somos p {
+  font-size: 1rem;
+  width: 100%;
+  text-align: justify;
+}
+
+.container {
+  font-weight: bolder;
+}
+
+.row {
+  justify-content: center;
+}
+
+.caja {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  background-image: url(../assets/img/fondo2.jpg);
+  background-size: cover;
+  width: 80vw;
+  height: 60vh;
+}
+
+@media screen and (max-width: 792px) {
+  .container-fluid {
+    background-color: #141d28;
+  }
+  .container-fluid span {
+    color: #0073ff;
+  }
+  .container-fluid .somos {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+  }
+  .container-fluid .somos p {
+    font-size: 0.75rem;
+    width: 100%;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 590px) {
+  .container-fluid {
+    background-color: #141d28;
+  }
+  .container-fluid span {
+    color: #0073ff;
+  }
+  .container-fluid .somos {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+  }
+  .container-fluid .somos p {
+    font-size: 0.6rem;
+    width: 100%;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 420px) {
+  .container-fluid {
+    background-color: #141d28;
+  }
+  .container-fluid span {
+    color: #0073ff;
+  }
+  .container-fluid .somos {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+  }
+  .container-fluid .somos p {
+    font-size: 0.5rem;
+    width: 100%;
+    text-align: justify;
+  }
+}/*# sourceMappingURL=style.css.map */

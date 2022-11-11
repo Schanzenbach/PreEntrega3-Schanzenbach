@@ -1,0 +1,51 @@
+@import "../colors/colors";
+.navbar{
+    padding: 0;
+    margin-bottom: 4rem;
+        &-collapse{
+            display :flex; 
+            justify-content:end;
+        }
+        &-toggler{
+            background-color: $clarito;
+                &-icon{
+                    background-color: $clarito;
+                }
+        }
+        &-brand{
+            color:  $clarito;
+                &:hover{
+                    color: $clarito;
+                    text-decoration: none;
+                }
+                &:focus{
+                    color: $clarito;
+                }
+        }
+}
+.nav-link{
+    color:  $clarito;
+        &:hover{
+            color: $azul_claro;
+            text-decoration: none;
+        }
+        &:focus{
+            color: $azul_claro;
+        }
+}
+
+
+nav div ul li {
+    margin-left: 2rem; 
+    margin-right: 2rem;
+}
+
+.dropdown{
+        &-menu{
+            background-color: $azul_oscuro;
+        }
+        &-item{
+            color:  $clarito;
+        }
+}
+

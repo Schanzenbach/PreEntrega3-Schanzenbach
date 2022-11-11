@@ -1,0 +1,16 @@
+@import "../colors/colors";
+.carousel-item{  
+    img{
+        width: 1340px;
+        height: 411px;
+    }
+}
+
+.carousel-control{
+    &-prev-icon{
+        background-color: $azul_oscuro;
+    }
+    &-next-icon{
+        background-color: $azul_oscuro;
+    }
+}
