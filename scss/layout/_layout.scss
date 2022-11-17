@@ -1,9 +1,9 @@
 @import "../colors/colors";
 
 .container-fluid{
-    background-color: $azul_oscuro;
+    background-color: map-get($colores, azul_oscuro);
         span{
-            color: $azul_claro;
+            color: map-get($colores, azul_claro);
         }
         .somos{
             height: 35vh;

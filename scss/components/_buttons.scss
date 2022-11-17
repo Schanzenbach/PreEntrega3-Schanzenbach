@@ -1,4 +1,3 @@
-// @import "../colors/colors";
 
 main{
     .container{
@@ -9,8 +8,8 @@ main{
                         height: 50px;
                         width: 100px;
                         padding: 0;
-                        background-color: $azul_oscuro;
-                        color: $clarito;
+                        background-color: map-get($colores, azul_oscuro);
+                        color: map-get($colores, clarito);
                         border: none;
                         outline: none;
                         border-radius: 5px;
@@ -44,8 +43,8 @@ main{
                         height: 50px;
                         width: 110px;
                         padding: 0;
-                        background-color: $clarito;
-                        color: $azul_oscuro;
+                        background-color: map-get($colores, clarito);
+                        color: map-get($colores, azul_oscuro);
                         border: none;
                         outline: none;
                         border-radius: 5px;

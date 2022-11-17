@@ -1,19 +1,19 @@
-@import "../reset/reset";
-@import "../colors/colors";
-@import "../components/navbar";
-@import "../components/carousel";
-@import "../components/cards";
-@import "../components/slider";
-@import "../components/buttons";
-@import "../layout/layout";
+@import "./reset/reset";
+@import "./colors/colors";
+@import "./components/navbar";
+@import "./components/carousel";
+@import "./components/cards";
+@import "./components/slider";
+@import "./components/buttons";
+@import "./layout/layout";
 
 
 
 @media screen and (max-width: 792px) {
     .container-fluid{
-        background-color: $azul_oscuro;
+        background-color: map-get($colores, azul_oscuro);
             span{
-                color: $azul_claro;
+                color: map-get($colores, azul_claro);
             }
             .somos{
                 height: 30vh;
@@ -30,9 +30,9 @@
 }
 @media screen and (max-width: 590px) {
     .container-fluid{
-        background-color: $azul_oscuro;
+        background-color: map-get($colores, azul_oscuro);
             span{
-                color: $azul_claro;
+                color: map-get($colores, azul_claro);
             }
             .somos{
                 height: 30vh;
@@ -48,9 +48,9 @@
 }
 @media screen and (max-width: 420px) {
     .container-fluid{
-        background-color: $azul_oscuro;
+        background-color: map-get($colores, azul_oscuro);
             span{
-                color: $azul_claro;
+                color: map-get($colores, azul_claro);
             }
             .somos{
                 height: 30vh;

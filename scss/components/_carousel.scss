@@ -8,9 +8,9 @@
 
 .carousel-control{
     &-prev-icon{
-        background-color: $azul_oscuro;
+        background-color: map-get($colores, azul_oscuro);
     }
     &-next-icon{
-        background-color: $azul_oscuro;
+        background-color: map-get($colores, azul_oscuro);
     }
 }

@@ -7,30 +7,30 @@
             justify-content:end;
         }
         &-toggler{
-            background-color: $clarito;
+            background-color: map-get($colores, clarito);
                 &-icon{
-                    background-color: $clarito;
+                    background-color: map-get($colores, clarito);
                 }
         }
         &-brand{
-            color:  $clarito;
+            color: map-get($colores, clarito);
                 &:hover{
-                    color: $clarito;
+                    color: map-get($colores, clarito);
                     text-decoration: none;
                 }
                 &:focus{
-                    color: $clarito;
+                    color: map-get($colores, clarito);
                 }
         }
 }
 .nav-link{
-    color:  $clarito;
+    color: map-get($colores, clarito);
         &:hover{
-            color: $azul_claro;
+            color: map-get($colores, azul_claro);
             text-decoration: none;
         }
         &:focus{
-            color: $azul_claro;
+            color: map-get($colores, azul_claro);
         }
 }
 
@@ -42,10 +42,10 @@ nav div ul li {
 
 .dropdown{
         &-menu{
-            background-color: $azul_oscuro;
+            background-color: map-get($colores, azul_oscuro);
         }
         &-item{
-            color:  $clarito;
+            color: map-get($colores, clarito);
         }
 }
 

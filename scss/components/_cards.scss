@@ -8,7 +8,7 @@
             }
         }
     &-header{
-        background-color: $azul_oscuro;
+        background-color: map-get($colores, azul_oscuro);
     }
 }
 

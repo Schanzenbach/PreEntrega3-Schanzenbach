@@ -5,7 +5,7 @@
     width: 66%;
     margin: auto;
     max-width: 80vw;
-    background-color: $clarito;
+    background-color: map-get($colores, clarito);
     padding: 3vw;
     box-sizing: border-box;
     ul {
@@ -63,14 +63,14 @@
                     width: 2rem;
                     height: 2rem;
                         &:hover{
-                            background-color: $azul_oscuro;
+                            background-color: map-get($colores, azul_oscuro);
                         }
                         &:active{
                             transition: 25s;
-                            background-color: $azul_oscuro;
+                            background-color: map-get($colores, azul_oscuro);
                         }
                         &:focus{
-                            background-color: $azul_oscuro;
+                            background-color: map-get($colores, azul_oscuro);
                         }
                         
                 }
@@ -83,7 +83,7 @@
         margin-left: 0;
         margin-right: 0;
         max-width: 100vw;
-        background-color: $clarito;
+        background-color: map-get($colores, clarito);
         padding: 3vw;
         box-sizing: border-box;
         ul {
