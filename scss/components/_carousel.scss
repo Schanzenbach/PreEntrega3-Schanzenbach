@@ -1,8 +1,9 @@
 @import "../colors/colors";
+@import "../vars/vars";
 .carousel-item{  
     img{
-        width: 1340px;
-        height: 411px;
+        width: $ancho_img;
+        height: $alto_img;
     }
 }
 
