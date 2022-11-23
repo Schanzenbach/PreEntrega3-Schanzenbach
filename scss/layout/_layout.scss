@@ -42,7 +42,6 @@
                     }
             }
             .somos{
-                // height: 35vh;
                 display: flex;
                 align-items: center;
                 p{
@@ -59,61 +58,7 @@
     padding: 12px;
 }
 
-// @media screen and (max-width: 792px) {
-//     .container-fluid{
-//         background-color: map-get($colores, azul_oscuro);
-//             span{
-//                 color: map-get($colores, azul_claro);
-//             }
-//             .somos{
-//                 height: 30vh;
-//                 display: flex;
-//                 align-items: center;
-//                 p{
-//                     font-size: 0.75rem;
-//                     width: 100%;
-//                     text-align: justify;
-//                 }
-//             }
-//     }
-    
-// }
-// @media screen and (max-width: 590px) {
-//     .container-fluid{
-//         background-color: map-get($colores, azul_oscuro);
-//             span{
-//                 color: map-get($colores, azul_claro);
-//             }
-//             .somos{
-//                 height: 30vh;
-//                 display: flex;
-//                 align-items: center;
-//                 p{
-//                     font-size: 0.6rem;
-//                     width: 100%;
-//                     text-align: justify;
-//                 }
-//             }
-//     }
-// }
-// @media screen and (max-width: 420px) {
-//     .container-fluid{
-//         background-color: map-get($colores, azul_oscuro);
-//             span{
-//                 color: map-get($colores, azul_claro);
-//             }
-//             .somos{
-//                 height: 30vh;
-//                 display: flex;
-//                 align-items: center;
-//                 p{
-//                     font-size: 0.5rem;
-//                     width: 100%;
-//                     text-align: justify;
-//                 }
-//             }
-//     }
-// }
+
 
 .container{
     font-weight: bolder;
