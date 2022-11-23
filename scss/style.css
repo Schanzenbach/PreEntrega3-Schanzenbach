@@ -279,8 +279,16 @@ main .container .row .col-md-12 .button-reset-icon {
 .container-fluid span {
   color: #0073ff;
 }
+.container-fluid .quienes {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.container-fluid .quienes img {
+  height: 20%;
+  width: 85%;
+}
 .container-fluid .somos {
-  height: 35vh;
   display: flex;
   align-items: center;
 }
@@ -290,62 +298,6 @@ main .container .row .col-md-12 .button-reset-icon {
   text-align: justify;
 }
 
-.container {
-  font-weight: bolder;
-}
-
-.row {
-  justify-content: center;
-}
-
-.caja {
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-  background-image: url(../assets/img/fondo2.jpg);
-  background-size: cover;
-  width: 80vw;
-  height: 60vh;
-}
-
-@media screen and (max-width: 792px) {
-  .container-fluid {
-    background-color: #141d28;
-  }
-  .container-fluid span {
-    color: #0073ff;
-  }
-  .container-fluid .somos {
-    height: 30vh;
-    display: flex;
-    align-items: center;
-  }
-  .container-fluid .somos p {
-    font-size: 0.75rem;
-    width: 100%;
-    text-align: justify;
-  }
-}
-@media screen and (max-width: 590px) {
-  .container-fluid {
-    background-color: #141d28;
-  }
-  .container-fluid span {
-    color: #0073ff;
-  }
-  .container-fluid .somos {
-    height: 30vh;
-    display: flex;
-    align-items: center;
-  }
-  .container-fluid .somos p {
-    font-size: 0.6rem;
-    width: 100%;
-    text-align: justify;
-  }
-}
 @media screen and (max-width: 420px) {
   .container-fluid {
     background-color: #141d28;
@@ -353,14 +305,33 @@ main .container .row .col-md-12 .button-reset-icon {
   .container-fluid span {
     color: #0073ff;
   }
+  .container-fluid .quienes {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .container-fluid .quienes img {
+    height: 20%;
+    width: 100%;
+  }
   .container-fluid .somos {
-    height: 30vh;
     display: flex;
     align-items: center;
   }
   .container-fluid .somos p {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     width: 100%;
     text-align: justify;
   }
+}
+.caja {
+  padding: 12px;
+}
+
+.container {
+  font-weight: bolder;
+}
+
+.row {
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
